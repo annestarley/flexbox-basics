@@ -1,12 +1,25 @@
 /* for small screens */
+.Grid {
+  display: Flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.Grid-cell {
+  flex: 0 0 95%;
+  background-color: #FF695E;
+  text-align: center;
+  border: 1px solid white;
+  margin: 10px;
+}
 
 
 /* for medium screens */
-@media screen and (min-width:468px) {
+/*@media screen and (min-width:468px) {
 
 }
-
+*?;
 /* for large screens */
-@media screen and (min-width:992px) {
+/*@media screen and (min-width:992px) {
 
 }
